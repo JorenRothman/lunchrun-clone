@@ -70,8 +70,8 @@ export default function Add() {
                         name="name"
                         render={({ field }) => (
                             <FormItem>
-                                <FormLabel>Name</FormLabel>
-                                <Input {...field} />
+                                <FormLabel htmlFor="name">Name</FormLabel>
+                                <Input id="name" {...field} />
                                 <FormDescription>
                                     Enter the name of the item
                                 </FormDescription>
